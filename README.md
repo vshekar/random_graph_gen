@@ -9,6 +9,7 @@ Graph object is implemented in graph.py
 Command line script is gen_graph.py
 
 #Usage
+```
 python gen_graph.py [-h] [-n NODES] [-e EDGES] [-s SEED] [-p PLOT]
 
 optional arguments:
@@ -17,3 +18,4 @@ optional arguments:
   -e EDGES    Defines number of edges (Required)
   -s SEED     Seed for random number generator (default=None)
   -p PLOT     Output the graph in a png file. Requires pygraphviz library
+```
